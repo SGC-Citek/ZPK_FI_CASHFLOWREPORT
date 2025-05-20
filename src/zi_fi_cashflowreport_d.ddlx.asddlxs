@@ -1,0 +1,97 @@
+@Metadata.layer: #CUSTOMER
+@UI: {
+  headerInfo: {
+    typeName: 'KhaiBOMasterDataFor',
+    typeNamePlural: 'KhaiBOMasterDataFors',
+    title: {
+      type: #STANDARD,
+      label: 'BC Lưu chuyển Tiền tệ - PP Gián Tiếp',
+      value: 'Version'
+    }
+  }
+}
+annotate view ZI_FI_CASHFLOWREPORT_D with
+{
+  @UI.identification: [ {
+    position: 1
+  } ]
+  @UI.lineItem: [ {
+    position: 1
+  } ]
+  @UI.facet: [ {
+    id: 'ZI_FI_CASHFLOWREPORT_D',
+    purpose: #STANDARD,
+    type: #IDENTIFICATION_REFERENCE,
+    label: 'BC Lưu chuyển Tiền tệ - PP Gián Tiếp',
+    position: 1
+  } ]
+  Version;
+
+  @UI.identification: [ {
+     position: 2
+   } ]
+  @UI.lineItem: [ {
+    position: 2
+  } ]
+  Item;
+
+  @UI.identification: [ {
+    position: 3 ,
+    label: 'Bold'
+  } ]
+  @UI.lineItem: [ {
+    position: 3 ,
+    label: 'Bold'
+  } ]
+  Bold;
+
+  @UI.identification: [ {
+    position: 4 ,
+    label: 'Negative'
+  } ]
+  @UI.lineItem: [ {
+    position: 4 ,
+    label: 'Negative'
+  } ]
+  Negative;
+
+  @UI.identification: [ {
+    position: 5 ,
+    label: 'Chỉ tiêu VN'
+  } ]
+  @UI.lineItem: [ {
+    position: 5 ,
+    label: 'Chỉ tiêu VN'
+  } ]
+  Fsitextvn;
+
+  @UI.identification: [ {
+    position: 6 ,
+    label: 'Chỉ tiêu EN'
+  } ]
+  @UI.lineItem: [ {
+    position: 6 ,
+    label: 'Chỉ tiêu EN'
+  } ]
+  Fsitexten;
+
+  @UI.identification: [ {
+  position: 7 ,
+  label: 'Mã số/Item'
+  } ]
+  @UI.lineItem: [ {
+    position: 7 ,
+    label: 'Mã số/Item'
+  } ]
+  Fsnode;
+
+  @UI.identification: [ {
+  position: 8 ,
+  label: 'Thuyết minh/Note'
+  } ]
+  @UI.lineItem: [ {
+    position: 8 ,
+    label: 'Thuyết minh/Note'
+  } ]
+  FsNote;
+}

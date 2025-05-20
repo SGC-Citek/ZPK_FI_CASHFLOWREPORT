@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>ZIAM_FI_CASHFLOW_CF_MBC</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>IAM App Master Data Báo cáo LCTT Gián tiếp</DESCRIPTION>
+     <RESPONSIBLE>CB9980000010</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>K9S</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>ZPK_FI_CASHFLOWREPORT</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>ZIAM_FI_CASHFLOW_CF_MBC</APP_ID>
+    <APP_TYPE>MBC</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <SERVICE>
+     <item>
+      <REL_NAME>ZUI_FI_CASHFLOWREPORT_O4</REL_NAME>
+      <REL_TYPE>G4BA</REL_TYPE>
+      <APP_ID>ZIAM_FI_CASHFLOW_CF_MBC</APP_ID>
+      <SRVC_NAME>2EF6065F92B37C3055DD8BF2AAFB85</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Maintain BC Lưu chuyển Tiền tệ - PP Gián Tiếp</TEXT>
+      <TYPE_TEXT>OData V4</TYPE_TEXT>
+     </item>
+    </SERVICE>
+    <AUTH>
+     <item>
+      <AUTH_OBJECT>S_TABU_NAM</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>Table Access by Generic Standard Tools</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>qd9QPZ+JHu+dyn0uFwZ7yw==</UUID>
+        <AUTH_OBJECT>S_TABU_NAM</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>Table Access by Generic Standard Tools</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display,Change,Display change documents</VALUE>
+          <VALUES>
+           <item>
+            <UUID>qd9QPZ+JHu+dyn0uFwa7yw==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>qd9QPZ+JHu+dyn0uFwabyw==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>qd9QPZ+JHu+dyn0uFwbbyw==</UUID>
+            <LOW_VALUE>08</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>TABLE</FIELD>
+          <VALUE>ZTB_CASHFLOW_CF,ZI_FI_CASHFLOWREPORT_D</VALUE>
+          <VALUES>
+           <item>
+            <UUID>qd9QPZ+JHu+dyn0uFwb7yw==</UUID>
+            <LOW_VALUE>ZTB_CASHFLOW_CF</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>qd9QPZ+JHu+dyn0uFwcbyw==</UUID>
+            <LOW_VALUE>ZI_FI_CASHFLOWREPORT_D</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Table Name</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+    </AUTH>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>

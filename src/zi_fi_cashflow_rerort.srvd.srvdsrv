@@ -1,0 +1,4 @@
+@EndUserText.label: 'Báo cáo lưu chuyển tiền tệ'
+define service ZI_FI_CASHFLOW_RERORT {
+  expose ZI_FI_CASHFLOW_RERORT as CASHFLOW_RERORT;
+}

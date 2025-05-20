@@ -1,0 +1,39 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "BC Lưu chuyển Tiền tệ - PP Gián Tiếp",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "serviceConfiguration": {
+    "serviceBinding": "ZUI_FI_CASHFLOWREPORT_O4",
+    "serviceName": "ZUI_FI_CASHFLOWREPORT_O4",
+    "serviceVersion": "0001",
+    "rootEntitySet": "KhaiBOMasterDataAll",
+    "name": "BC Lưu chuyển Tiền tệ - PP Gián Tiếp",
+    "configurationGroup": "",
+    "skipRootEntity": true
+  },
+  "appConfiguration": {
+    "listReport": {},
+    "objectPages": [
+      {
+        "entitySet": "KhaiBOMasterDataAll",
+        "variantManagement": "control",
+        "showTransportSelectionStrip": true
+      }
+    ],
+    "tableSettings": [
+      {
+        "entitySet": "KhaiBOMasterDataFor",
+        "tableType": "gridTable",
+        "selectionMode": "auto",
+        "rowCountMode": "auto",
+        "frozenColumnCount": 2,
+        "creationModeName": "inlineCreationRows",
+        "createAtEnd": true,
+        "widthIncludingColumnHeader": true
+      }
+    ]
+  }
+}

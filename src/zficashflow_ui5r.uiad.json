@@ -1,0 +1,34 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Báo cáo lưu chuyển tiền tệ",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD"
+  },
+  "ui5AppDetails": {
+    "appId": "zficashflow"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_53179FD0D4FF48ADFC5E3D03CC3FE92FFF89A24E_TM",
+    "semanticObject": "zficashflow",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_53179FD0D4FF48ADFC5E3D03CC3FE92FFF89A24E_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Báo cáo lưu chuyển tiền tệ",
+        "subtitle": "ZGL07"
+      }
+    }
+  ]
+}
